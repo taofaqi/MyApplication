@@ -19,7 +19,7 @@ struct Index {
         Text('评论回复')
           .layoutWeight(1).textAlign(TextAlign.Center)
           .padding({ right: 40 })
-      }.height(40).border({ width: 1 })
+      }.height(40).border({ width: 0.5 ,color:'#e4e4e4' })
 
       Row() {
 
