@@ -1,6 +1,24 @@
 import { promptAction } from '@kit.ArkUI'
 import text from '@ohos.graphics.text'
 
+@Extend(Text)
+function sameType() {
+  .fontColor('red')
+  .onClick(() => {
+  }).stateStyles({
+    normal: {
+      .backgroundColor('#ccc')
+    },
+    pressed: { .backgroundColor('#fa0')
+    },
+    focused: { .backgroundColor('red')
+    },
+    disabled: {
+      .backgroundColor('#000')
+    }
+  })
+}
+
 @Entry
 @Component
 struct Index {
