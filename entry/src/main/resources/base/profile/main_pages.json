@@ -1,5 +1,8 @@
 {
   "src": [
-    "pages/Index"
+    "pages/Index",
+    "pages/Index_If",
+    "pages/Index_ZhiHu",
+    "pages/Index_ForEach"
   ]
 }
