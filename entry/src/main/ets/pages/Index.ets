@@ -3,8 +3,8 @@ import router from '@ohos.router'
 @Entry
 @Component
 struct Index {
-  private listTitle = ["ZhiHu", "If", "ForEach"]
-  private listRouter = ["pages/Index_ZhiHu", "pages/Index_If", "pages/Index_ForEach"]
+  private listTitle = ["ZhiHu", "If", "ForEach", "State"]
+  private listRouter = ["pages/Index_ZhiHu", "pages/Index_If", "pages/Index_ForEach", "pages/Index_State"]
 
   build() {
     Column() {

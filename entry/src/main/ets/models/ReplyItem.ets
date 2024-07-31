@@ -1,7 +1,7 @@
 //回复对象
 export class ReplyItem {
   id?: number
-  avatar?: string
+  avatar?: string | Resource
   author?: string
   content?: string
   time?: string

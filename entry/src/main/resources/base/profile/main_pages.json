@@ -3,6 +3,7 @@
     "pages/Index",
     "pages/Index_If",
     "pages/Index_ZhiHu",
-    "pages/Index_ForEach"
+    "pages/Index_ForEach",
+    "pages/Index_State"
   ]
 }
