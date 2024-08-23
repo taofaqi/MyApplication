@@ -3,8 +3,13 @@ import router from '@ohos.router'
 @Entry
 @Component
 struct Index {
-  private listTitle = ["ZhiHu", "If", "ForEach", "State"]
-  private listRouter = ["pages/Index_ZhiHu", "pages/Index_If", "pages/Index_ForEach", "pages/Index_State"]
+  private listTitle = ["ZhiHu", "If", "ForEach", "State", "Tab", "Prop", "Link", "Provide_Consume", "Index_Watch",
+    "Index_Observed_ObjectLink", "Index_LocalStorage", "Index_AppStorage"]
+  private listRouter =
+    ["pages/Index_ZhiHu", "pages/Index_If", "pages/Index_ForEach", "pages/state/Index_State_BuilderParam",
+      "pages/Index_tab", "pages/state/Index_Prop", "pages/state/Index_Link", "pages/state/Index_Provide_Consume",
+      "pages/state/Index_Watch", "pages/state/Index_Observed_ObjectLink", "pages/storage/Index_LocalStorage",
+      "pages/storage/Index_AppStorage"]
 
   build() {
     Column() {

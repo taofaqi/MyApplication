@@ -4,6 +4,15 @@
     "pages/Index_If",
     "pages/Index_ZhiHu",
     "pages/Index_ForEach",
-    "pages/Index_State"
+    "pages/state/Index_State_BuilderParam",
+    "pages/Index_tab",
+    "pages/state/Index_Prop",
+    "pages/state/Index_Link",
+    "pages/state/Index_Provide_Consume",
+    "pages/state/Index_Watch",
+    "pages/state/Index_Observed_ObjectLink",
+    "pages/storage/Index_LocalStorage",
+    "pages/storage/Index_AppStorage",
+    "pages/storage/Index_PersistentStorage"
   ]
 }

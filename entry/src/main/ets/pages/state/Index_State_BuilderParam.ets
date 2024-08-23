@@ -1,6 +1,6 @@
 interface Params { title: string; }
 
-//当子组件使用一个 @BuilderParam 的时候，使用组件的时候在尾随 {} 插入UI结构
+// 当子组件使用一个 @BuilderParam 的时候，使用组件的时候在尾随 {} 插入UI结构
 // 当子组件使用多个 @BuilderParam 的时候，使用组件的时候 Comp({ xxx: this.builderFn }) 传入
 // 子组件本身可以提供一个默认的 @Builder 函数作为 @BuilderParam 备用函数，当做备用内容使用
 
