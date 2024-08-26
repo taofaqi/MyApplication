@@ -13,6 +13,13 @@
     "pages/state/Index_Observed_ObjectLink",
     "pages/storage/Index_LocalStorage",
     "pages/storage/Index_AppStorage",
-    "pages/storage/Index_PersistentStorage"
+    "pages/storage/Index_PersistentStorage",
+    "pages/statev2/Index_ObservedV2_Trace",
+    "pages/statev2/Index_local",
+    "pages/statev2/Index_Param",
+    "pages/statev2/Index_Once",
+    "pages/statev2/Index_Event",
+    "pages/statev2/Index_Provider_Consumer",
+    "pages/statev2/Index_Monitor"
   ]
 }
