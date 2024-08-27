@@ -21,6 +21,7 @@
     "pages/statev2/Index_Event",
     "pages/statev2/Index_Provider_Consumer",
     "pages/statev2/Index_Monitor",
-    "pages/http/http_demo_page"
+    "pages/http/http_demo_page",
+    "pages/meituan/IndexMeiTuan"
   ]
 }

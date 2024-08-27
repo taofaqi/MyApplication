@@ -13,7 +13,7 @@ class InfoOnce {
 struct ChildOnce {
   // @Param @Once相当于使用@Local
   @Param @Once onceParamNum: number = 0;
-  @Param @Once @Require onceParamInfo: InfoOnce;
+  @Param @Require @Once onceParamInfo: InfoOnce;
 
   build() {
     Column() {
