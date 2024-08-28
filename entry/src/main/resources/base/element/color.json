@@ -7,6 +7,10 @@
     {
       "name": "main_color",
       "value": "#f5f5f5"
+    },
+    {
+      "name": "color_22",
+      "value": "#222222"
     }
   ]
 }
